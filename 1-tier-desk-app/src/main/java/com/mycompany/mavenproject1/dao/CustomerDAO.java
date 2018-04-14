@@ -15,7 +15,7 @@ public class CustomerDAO {
 
     private String dbURL = "jdbc:mysql://localhost:3306/saapp";
     private String username = "root";
-    private String password = "gabriel";
+    private String password = "root";
 
     public void create(Customer customer) throws Exception {
         try (Connection conn = DriverManager.getConnection(dbURL, username, password)) {
